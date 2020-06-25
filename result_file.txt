@@ -1,0 +1,12 @@
+Fact Sheet for Second grade
+Your score: 60.0%
+1) 6 + 5 = 11 You entered 1 True
+2) 2 + 7 = 9 You entered 5 False
+3) 7 - 2 = 9 You entered 9 True
+4) 1 - 6 = 7 You entered 7 True
+5) 9 - 9 = 18 You entered 18 True
+6) 2 + 8 = 10 You entered 6 False
+7) 7 + 2 = 9 You entered 5 True
+8) 1 + 9 = 10 You entered 8 False
+9) 1 + 9 = 10 You entered 8 False
+10) 5 - 6 = 11 You entered 11 True

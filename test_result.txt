@@ -1,0 +1,9 @@
+
+
+Face Sheet Result
+Your score: 80.0%
+1) 9 - 4 = 13 You entered 13 True
+2) 4 - 1 = 5 You entered 5 True
+3) 3 - 7 = 10 You entered 11 False
+4) 3 + 2 = 5 You entered 1 True
+5) 5 + 4 = 9 You entered 1 True
