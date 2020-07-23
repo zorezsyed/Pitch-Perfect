@@ -59,7 +59,7 @@
                         <outlet property="recordButton" destination="7Fy-ka-1ot" id="YHF-E4-S8M"/>
                         <outlet property="recordingLabel" destination="vJI-Il-Kco" id="kWg-ax-iaM"/>
                         <outlet property="stopRecordingButton" destination="4nJ-IM-vB3" id="w8G-jL-I7A"/>
-                        <segue destination="mua-ar-ioA" kind="show" identifier="stopRecording" id="x2l-cw-27w"/>
+                        <segue destination="mua-ar-ioA" kind="show" identifier="stopRecording" id="4d2-dq-cur"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -84,10 +84,10 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
         </scene>
-        <!--Play Sounds View Controller View Controller-->
+        <!--Play Sounds View Controller-->
         <scene sceneID="CzH-Lq-tpj">
             <objects>
-                <viewController id="mua-ar-ioA" customClass="PlaySoundsViewControllerViewController" customModule="PitchPerfect" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="mua-ar-ioA" customClass="PlaySoundsViewController" customModule="PitchPerfect" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tDN-j2-gvA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

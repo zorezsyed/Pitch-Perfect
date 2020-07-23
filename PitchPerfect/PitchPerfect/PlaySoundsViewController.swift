@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class PlaySoundsViewControllerViewController: UIViewController {
+class PlaySoundsViewController: UIViewController {
     
     @IBOutlet weak var Slow: UIButton!
     @IBOutlet weak var Fast: UIButton!

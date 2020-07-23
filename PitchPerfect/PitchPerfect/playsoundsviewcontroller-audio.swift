@@ -10,7 +10,7 @@ import AVFoundation
 
 // MARK: - PlaySoundsViewController: AVAudioPlayerDelegate
 
-extension PlaySoundsViewControllerViewController: AVAudioPlayerDelegate {
+extension PlaySoundsViewController: AVAudioPlayerDelegate {
     
     // MARK: Alerts
     
@@ -100,7 +100,7 @@ extension PlaySoundsViewControllerViewController: AVAudioPlayerDelegate {
             }
             
             // schedule a stop timer for when audio finishes playing
-            self.stopTimer = Timer(timeInterval: delayInSeconds, target: self, selector: #selector(PlaySoundsViewControllerViewController.stopAudio), userInfo: nil, repeats: false)
+            self.stopTimer = Timer(timeInterval: delayInSeconds, target: self, selector: #selector(PlaySoundsViewController.stopAudio), userInfo: nil, repeats: false)
             RunLoop.main.add(self.stopTimer!, forMode: RunLoop.Mode.default)
         }
         
