@@ -15,6 +15,8 @@
 		0FDAFD1124A3ED8800C3460C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FDAFD0F24A3ED8800C3460C /* LaunchScreen.storyboard */; };
 		0FDAFD1C24A3ED8800C3460C /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDAFD1B24A3ED8800C3460C /* LandmarksTests.swift */; };
 		0FDAFD2724A3ED8800C3460C /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDAFD2624A3ED8800C3460C /* LandmarksUITests.swift */; };
+		0FDAFD3524A3F39B00C3460C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDAFD3424A3F39B00C3460C /* CircleImage.swift */; };
+		0FDAFD3724A3F5DF00C3460C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDAFD3624A3F5DF00C3460C /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0FDAFD2224A3ED8800C3460C /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FDAFD2624A3ED8800C3460C /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		0FDAFD2824A3ED8800C3460C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FDAFD3424A3F39B00C3460C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		0FDAFD3624A3F5DF00C3460C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 				0FDAFD1A24A3ED8800C3460C /* LandmarksTests */,
 				0FDAFD2524A3ED8800C3460C /* LandmarksUITests */,
 				0FDAFD0224A3ED8600C3460C /* Products */,
+				0FDAFD0A24A3ED8800C3460C /* Assets.xcassets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +107,8 @@
 				0FDAFD0424A3ED8600C3460C /* AppDelegate.swift */,
 				0FDAFD0624A3ED8600C3460C /* SceneDelegate.swift */,
 				0FDAFD0824A3ED8600C3460C /* ContentView.swift */,
-				0FDAFD0A24A3ED8800C3460C /* Assets.xcassets */,
+				0FDAFD3424A3F39B00C3460C /* CircleImage.swift */,
+				0FDAFD3624A3F5DF00C3460C /* MapView.swift */,
 				0FDAFD0F24A3ED8800C3460C /* LaunchScreen.storyboard */,
 				0FDAFD1224A3ED8800C3460C /* Info.plist */,
 				0FDAFD0C24A3ED8800C3460C /* Preview Content */,
@@ -268,6 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FDAFD0524A3ED8600C3460C /* AppDelegate.swift in Sources */,
+				0FDAFD3524A3F39B00C3460C /* CircleImage.swift in Sources */,
+				0FDAFD3724A3F5DF00C3460C /* MapView.swift in Sources */,
 				0FDAFD0724A3ED8600C3460C /* SceneDelegate.swift in Sources */,
 				0FDAFD0924A3ED8600C3460C /* ContentView.swift in Sources */,
 			);
@@ -436,13 +444,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Z53RNBL3H;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Landmarks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zorez.Landmarks;
+				PRODUCT_BUNDLE_IDENTIFIER = zorez.Landmarks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,13 +465,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Z53RNBL3H;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Landmarks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zorez.Landmarks;
+				PRODUCT_BUNDLE_IDENTIFIER = zorez.Landmarks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
