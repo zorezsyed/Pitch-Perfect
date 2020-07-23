@@ -101,10 +101,16 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vq0-xr-1el" userLabel="Slow">
                                                 <rect key="frame" x="0.0" y="0.0" width="191" height="158.5"/>
                                                 <state key="normal" image="Slow"/>
+                                                <connections>
+                                                    <action selector="playSoundForButton:" destination="mua-ar-ioA" eventType="touchUpInside" id="dhs-GR-tnK"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGz-2I-4tP" userLabel="Fast">
                                                 <rect key="frame" x="191" y="0.0" width="191" height="158.5"/>
                                                 <state key="normal" image="Fast"/>
+                                                <connections>
+                                                    <action selector="playSoundForButton:" destination="mua-ar-ioA" eventType="touchUpInside" id="3dj-3A-cb3"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -114,10 +120,16 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="snx-4C-NL2" userLabel="HighPitch">
                                                 <rect key="frame" x="0.0" y="0.0" width="191" height="158.5"/>
                                                 <state key="normal" image="HighPitch"/>
+                                                <connections>
+                                                    <action selector="playSoundForButton:" destination="mua-ar-ioA" eventType="touchUpInside" id="BKp-rt-GxB"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="reO-gg-7Rq" userLabel="LowPitch">
                                                 <rect key="frame" x="191" y="0.0" width="191" height="158.5"/>
                                                 <state key="normal" image="LowPitch"/>
+                                                <connections>
+                                                    <action selector="playSoundForButton:" destination="mua-ar-ioA" eventType="touchUpInside" id="QOb-D9-nSv"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -127,10 +139,16 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4Y-5K-tGo" userLabel="Echo">
                                                 <rect key="frame" x="0.0" y="0.0" width="191" height="158"/>
                                                 <state key="normal" image="Echo"/>
+                                                <connections>
+                                                    <action selector="playSoundForButton:" destination="mua-ar-ioA" eventType="touchUpInside" id="scZ-vA-Rpj"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DpB-79-oG8" userLabel="Reverb">
                                                 <rect key="frame" x="191" y="0.0" width="191" height="158"/>
                                                 <state key="normal" image="Reverb"/>
+                                                <connections>
+                                                    <action selector="playSoundForButton:" destination="mua-ar-ioA" eventType="touchUpInside" id="GPE-BP-vF0"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -140,6 +158,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vQ3-tJ-TT3" userLabel="StopButton">
                                                 <rect key="frame" x="0.0" y="0.0" width="382" height="273"/>
                                                 <state key="normal" image="Stop"/>
+                                                <connections>
+                                                    <action selector="stopButtonPressed:" destination="mua-ar-ioA" eventType="touchUpInside" id="AmM-yh-i4E"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -158,11 +179,11 @@
                     <navigationItem key="navigationItem" id="d4y-da-efP"/>
                     <connections>
                         <outlet property="Echo" destination="b4Y-5K-tGo" id="IEU-vi-TTy"/>
-                        <outlet property="Fast" destination="eGz-2I-4tP" id="uCs-yO-nbw"/>
+                        <outlet property="Fast" destination="eGz-2I-4tP" id="qlg-OP-h5F"/>
                         <outlet property="HighPitch" destination="snx-4C-NL2" id="rcw-bV-ndk"/>
                         <outlet property="LowPitch" destination="reO-gg-7Rq" id="xka-Rb-v8x"/>
                         <outlet property="Reverb" destination="DpB-79-oG8" id="vMA-Af-4ad"/>
-                        <outlet property="Slow" destination="Vq0-xr-1el" id="kJa-wR-4ab"/>
+                        <outlet property="Slow" destination="Vq0-xr-1el" id="ixJ-5m-4Eb"/>
                         <outlet property="view" destination="vQ3-tJ-TT3" id="cg6-4D-Mxs"/>
                     </connections>
                 </viewController>
